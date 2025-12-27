@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "echo 'Build success' && exit 0"
+    "build": "exit 0"
   },
   "keywords": ["netlify", "express", "bot"],
   "author": "",
