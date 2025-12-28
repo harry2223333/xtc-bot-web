@@ -1,18 +1,14 @@
 {
-  "name": "xtc-bot-web",
+  "name": "xtc-bot",
   "version": "1.0.0",
-  "description": "Netlify部署的BOT服务",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "exit 0"
+    "start": "node index.js"
   },
-  "keywords": ["netlify", "express", "bot"],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "serverless-http": "^3.2.0"
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
